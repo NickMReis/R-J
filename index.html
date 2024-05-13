@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&J - Engenharia e Usinagem</title>
+    <link rel="icon" href="imgs_R&J/logo-head.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="navbar__logo" src="imgs_R&J/Logo.svg" alt="Logo da R&J">
+            <div class="navbar__btn">
+                <input type="checkbox" id="menu">
+                <label for="menu" class="navbar__label">
+                    <span class="menu-hamburguer"></span>
+                </label>
+                <ul class="menu-hamburguer__items">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">Empresa</a></li>
+                    <li><a href="#machinery">Maquinário</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <ul class="navbar__items">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">Empresa</a></li>
+                <li><a href="#machinery">Maquinário</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="home">
+            <h1 class="home__text">Qualidade, confiabilidade e atendimento dos prazos.</h1>
+        </section>
+
+        <section class="container" id="about">
+            <div class="container__content-title">
+                <h2 class="container__title">Empresa</h2>
+                <span class="separator"><img src="imgs_R&J/Separador.svg" alt="Separator Line"></span>
+            </div>
+            <div class="about__items">
+                <div class="about__items-texts">
+                    <h3>Quem somos?</h3>
+                    <p>A empresa R&J Engenharia foi fundada com o propósito de oferecer soluções de qualidade que atendam às necessidades variadas de seus clientes, prezando sempre pela melhoria, transparência e excelência dos serviços de usinagem e reparo de equipamentos prestados pela nossa equipe técnica altamente qualificada e especializada.</p>
+                    <p>A R&J Engenharia está comprometida com o sucesso de seus clientes e trabalha lado a lado com os mesmos para entender suas necessidades específicas e oferecer soluções personalizadas que agreguem valor real aos seus negócios, com uma infraestrutura necessária para a realização de fabricação, revitalização, soldagem, reparo, restauração e manutenção de equipamentos industriais.</p>
+                </div>
+                <div class="about__items-video">
+                    <h3>Video Corporativo</h3>
+                    <video width="310" height="330" controls>
+                        <source src="video-empresa-rj.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>               
+            </div>
+        </section>
+
+        <section class="container" id="machinery">
+            <div class="container__content-title">
+                <h2 class="container__title">Maquinário</h2>
+                <span class="separator"><img src="imgs_R&J/Separador.svg" alt="Separator Line"></span>
+            </div>
+            <div class="machinery__items">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Petrus.svg" alt="Foto da Máquina Petrus">
+                            <div class="swiper-text">
+                                <h3>PETRUS 90250R</h3>
+                                <p>X=2540<br>Y=880<br>Z=710</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Veker.svg" alt="Foto da Máquina Veker">
+                            <div class="swiper-text">                            
+                                <h3>VEKER CVK-1500D</h3>
+                                <p>X=1500<br>Y=600<br>Z=700</p>
+                            </div>                          
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Torno_30D.svg" alt="Foto do Torno Centro 30D">
+                            <div class="swiper-text">                       
+                                <h3>Torno Centro 30D</h3>
+                                <p>Ø 430mm Admissível sobre o Barramento, Ø 200mm Admissível sobre o barramento comprimento de 1000mm entre pontos /</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Torno_35D.svg" alt="Foto do Torno Centro 35D">
+                            <div class="swiper-text">                    
+                                <h3>Torno Centro 35D</h3>
+                                <p>Ø 570mm Admissível sobre o Barramento, Ø 255mm Admissível sobre o barramento Comprimento de 1500mm entre pontos /</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Torno_Diplomat.svg" alt="Foto do Torno Diplomat">
+                            <div class="swiper-text">
+                                <h3>Torno Diplomat Logic 250</h3>
+                                <p>Ø 500mm Admissível sobre o Barramento, Ø 260mm Admissível sobre o barramento Comprimento de 1550mm entre pontos / </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Tornos_Convencionais.svg" alt="Foto dos Tornos Convencionais">
+                            <div class="swiper-text">
+                                <h3>Tornos Convencionais</h3>
+                                <p>Ø 570mm Admissível sobre o Barramento, Ø 255mm Admissível sobre o barramento Comprimento de 2000mm entre pontos</p>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Impressora_3D.svg" alt="Foto da Impressora 3D">
+                            <div class="swiper-text">
+                                <h3>Impressora 3D CREALITY CR-10</h3>
+                                <p>X=450<br>Y=450<br>Z=450</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs_R&J/imgs-maquinas/Serra_de_Fita.svg" alt="Foto da Serra de Fita">
+                            <div class="swiper-text">
+                                <h3>Serra de Fita Starret</h3>
+                                <p>Ø 250mm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>  
+            </div>
+        </section>
+
+        <section class="container" id="services">
+            <div class="container__content-title">
+                <h2 class="container__title">Serviços</h2>
+                <span class="separator"><img src="imgs_R&J/Separador.svg" alt="Separator Line"></span>
+            </div>
+            <div class="services__items">
+                <p>Na R&J, dedicamo-nos a fornecer serviços de fabricação e usinagem de alta qualidade, atendendo às demandas específicas do <span>setor de Oil & Gas</span>. Com um corpo técnico experiente e especializado no setor, nos tornamos referência pela nossa precisão, confiabilidade e compromisso com a excelência.</p>
+                <p>Nossas principais atividades incluem a <span>fabricação de peças sob medida</span>, <span>usinagem de precisão</span>, <span>soldagem especializada</span> e <span>muito mais</span>. Com o uso de tecnologia de ponta e um time altamente qualificado, garantimos que cada projeto seja executado com perfeição, dentro do prazo e do orçamento estabelecidos.</p>
+                <p>Independentemente das suas necessidades em fabricação e usinagem para o setor de Oil & Gas, estamos prontos para colaborar no seu próximo projeto. Entre em <a href="#contact">Contato</a> conosco para descobrir como podemos atender às suas demandas de forma eficiente e confiável.</p>
+            </div>
+        </section>
+
+        <section class="container" id="contact">
+            <div class="container__content-title">
+                <h2 class="container__title">Contato</h2>
+                <span class="separator"><img src="imgs_R&J/Separador.svg" alt="Separator Line"></span>
+            </div>
+            <div class="contact__items">
+                <div class="contact__items-text">
+                    <div class="contact__items-item">
+                        <h4>● Endereço</h4>
+                        <p>R. Joaquim Murtinho – Duque de Caxias – RJ</p>
+                    </div>
+                    <div class="contact__items-item">
+                        <h4>● Telefone</h4>
+                        <p>(21) 96437-3143</p>
+                    </div>
+                    <div class="contact__items-item">
+                        <h4>● Email</h4>
+                        <p>enoque.reis@rjusinagem.com.br</p>
+                    </div>
+                </div>
+                <img src="imgs_R&J/foto-empresa.svg" alt="Foto externa da empresa">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>R&J - Engenharia e Usinagem</h4>
+        <h5>Since 2022</h5>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.navbar__items a, .menu-hamburguer__items a, .services__items p a').on('click', function(event) {
+                if (this.hash !== '') {
+                    event.preventDefault();
+                    const hash = this.hash;
+                    const navbarHeight = $('.navbar').outerHeight(); // altura da navbar
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top - navbarHeight // subtrai a altura da navbar
+                    }, 800, function() {
+                        window.history.replaceState('', document.title, window.location.origin + window.location.pathname);
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 70,
+            centeredSlides: true,
+            loop:true,
+            slidesPerView: 'auto',
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                //Media 768px
+                768: {
+                    spaceBetween:90
+                },
+                // Media 1024px
+                1024: {
+                    spaceBetween: 110
+                }
+            }
+        });
+    </script>
+</body>
+</html>
