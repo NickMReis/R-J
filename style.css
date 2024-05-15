@@ -7,7 +7,8 @@
     
     --cor-bordas: #000C30;
     --cor-hover: #569AB1;
-    --cor-active-services: blueviolet;
+    --cor-active: blueviolet; 
+    --cor-active-machinery:#d3d3d3; 
 
     --background-video: grey;
     --background-slide: #f5fffb;
@@ -127,7 +128,7 @@ header{
 
 /*Common Items in Each Section*/
 .about__items, .machinery__items, .services__items, .contact__items{
-    padding:1rem;
+    padding:1.5rem 1rem; 
 }
 .about__items, .services__items{
     border:1px solid var(--cor-bordas);
@@ -146,7 +147,7 @@ header{
     background-repeat: no-repeat;
     background-position: center 80px;
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
     padding-top:95px;
     margin-bottom: 30px;
     border-bottom: 1px solid var(--cor-bordas);
@@ -158,7 +159,7 @@ header{
     color: var(--cor-secundaria);
     font-size:30px;
     font-weight:700;
-    padding-top:3rem;
+    padding-top:5rem; 
 }
 
 
@@ -234,6 +235,16 @@ header{
     font-size:16px;
     font-weight: 500;
 }
+.swiper-button-prev, .swiper-button-next{ 
+    padding:0.5rem 1rem;
+    border:var(--cor-secundaria) 2.5px solid;
+    border-radius:50%;
+    top:45%;
+}
+.swiper-button-prev:active, .swiper-button-next:active{ 
+    background-color: var(--cor-active-machinery);
+}
+
 .swiper-pagination{
     margin-top: 1.5rem;
     position: relative;
@@ -260,7 +271,7 @@ header{
     font-weight:700;
 }
 .services__items p a:active{
-    color: var(--cor-active-services);
+    color: var(--cor-active);
 }
 
 
@@ -283,9 +294,12 @@ header{
     font-size:28px;
     color:var(--cor-secundaria);
 }
-.contact__items-text p{
+.contact__items-text p, .contact__items-text a{ 
     font-size:18px;
     font-weight: 500;
+}
+.contact__items-text a:active{
+    color: var(--cor-active);
 }
 .contact__items img{
     width:80%;
@@ -392,6 +406,7 @@ footer h5{
     .contact__items{
         flex-direction: row;
         justify-content: space-around;
+        margin: 0 1.5rem; 
     }
     .contact__items-text{
         gap:2.5rem;
@@ -399,12 +414,13 @@ footer h5{
     .contact__items-item{
         gap:1rem;
         align-items: flex-start;
+        text-align: justify; 
     }
     .contact__items-text h4{
         font-size: 32px;
     }
-    .contact__items-text p{
-        font-size:24px;
+    .contact__items-text p, .contact__items-text a{ 
+        font-size:20px; 
     }
     .contact__items img{
         width:40%;
@@ -494,7 +510,7 @@ footer h5{
     .contact__items-text h4{
         font-size:40px;
     }
-    .contact__items-text p{
+    .contact__items-text p, .contact__items-text a{ 
         font-size: 30px;
     }
 }
@@ -554,7 +570,7 @@ footer h5{
     .contact__items-text h4{
         font-size:40px;
     }
-    .contact__items-text p{
+    .contact__items-text p, .contact__items-text a{ 
         font-size: 30px;
     }
 }
